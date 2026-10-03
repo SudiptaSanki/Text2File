@@ -2,38 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=2" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=3" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=3" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png?v=3" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=3" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Text2File converts text into printable and downloadable document files."
-    />
     
-    <!-- Open Graph / WhatsApp / Discord -->
+    <!-- Primary SEO -->
+    <title>TextToFiles | Text &amp; LaTeX to PDF/DOCX</title>
+    <meta name="title" content="TextToFiles | Text &amp; LaTeX to PDF/DOCX" />
+    <meta name="description" content="Convert raw text and AI chat math into publication-ready PDF, Word DOCX, and HTML documents with zero latency." />
+    
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://texttofiles.pages.dev/" />
+    <meta property="og:site_name" content="TextToFiles" />
     <meta property="og:title" content="TextToFiles | Text &amp; LaTeX to PDF/DOCX" />
     <meta property="og:description" content="Convert raw text and AI chat math into publication-ready PDF, Word DOCX, and HTML documents with zero latency." />
-    <meta property="og:image" content="https://texttofiles.pages.dev/brand-preview.png?v=2" />
-    <meta property="og:image:secure_url" content="https://texttofiles.pages.dev/brand-preview.png?v=2" />
+    <meta property="og:image" content="https://texttofiles.pages.dev/social-banner.png?v=3" />
+    <meta property="og:image:secure_url" content="https://texttofiles.pages.dev/social-banner.png?v=3" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="600" />
-    <link rel="image_src" href="https://texttofiles.pages.dev/brand-preview.png?v=2" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="TextToFiles Document Engine" />
 
-    <!-- Twitter / Discord Card -->
+    <!-- WhatsApp & Legacy Crawler Fallback -->
+    <link rel="image_src" href="https://texttofiles.pages.dev/social-banner.png?v=3" />
+
+    <!-- Twitter / Discord Large Card -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://texttofiles.pages.dev/" />
     <meta property="twitter:title" content="TextToFiles | Text &amp; LaTeX to PDF/DOCX" />
     <meta property="twitter:description" content="Convert raw text and AI chat math into publication-ready PDF, Word DOCX, and HTML documents with zero latency." />
-    <meta property="twitter:image" content="https://texttofiles.pages.dev/brand-preview.png?v=2" />
+    <meta property="twitter:image" content="https://texttofiles.pages.dev/social-banner.png?v=3" />
     
-    <title>Text2File</title>
+    <title>TextToFiles</title>
+
+    <!-- Web Fonts & KaTeX CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    
+    <!-- Google Identity Services -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
